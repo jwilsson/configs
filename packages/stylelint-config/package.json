@@ -1,0 +1,15 @@
+{
+    "name": "@jwilsson/stylelint-config",
+    "version": "8.2.0",
+    "description": "jwilsson stylelint config",
+    "license": "MIT",
+    "main": "stylelint.config.js",
+    "dependencies": {
+        "stylelint-config-standard": "^36.0.1",
+        "stylelint-declaration-block-no-ignored-properties": "^2.8.0",
+        "stylelint-order": "^6.0.4"
+    },
+    "peerDependencies": {
+        "stylelint": "^16.8.1"
+    }
+}

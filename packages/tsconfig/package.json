@@ -1,0 +1,9 @@
+{
+    "name": "@jwilsson/tsconfig",
+    "version": "2.2.0",
+    "description": "jwilsson TypeScript config",
+    "license": "MIT",
+    "peerDependencies": {
+        "typescript": "^5.5.4"
+    }
+}

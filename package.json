@@ -1,0 +1,24 @@
+{
+    "name": "@jwilsson/configs",
+    "description": "jwilsson configs",
+    "repository": "jwilsson/configs",
+    "license": "MIT",
+    "private": true,
+    "workspaces": [
+        "packages/eslint-config",
+        "packages/prettier-config",
+        "packages/stylelint-config",
+        "packages/tsconfig"
+    ],
+    "devDependencies": {
+        "prettier": "^3.3.3",
+        "simple-git-hooks": "^2.11.1"
+    },
+    "simple-git-hooks": {
+        "pre-commit": "npx lint-staged"
+    },
+    "lint-staged": {
+        "packages/**/*.{js,json}": "prettier --write"
+    },
+    "prettier": "./packages/prettier-config/prettier.config.js"
+}
