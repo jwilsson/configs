@@ -3,4 +3,8 @@ import { defaultConfig } from './default-config.js';
 import { reactConfig } from './react-config.js';
 import { typescriptConfig } from './typescript-config.js';
 
-export default [js.configs.recommended, ...defaultConfig, ...typescriptConfig, ...reactConfig];
+export default {
+    default: [js.configs.recommended, ...defaultConfig],
+    typescript: [...typescriptConfig],
+    react: [...reactConfig],
+};
