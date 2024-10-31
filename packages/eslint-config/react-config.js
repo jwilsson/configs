@@ -41,6 +41,7 @@ export const reactConfig = [
             'react/jsx-no-useless-fragment': 'error',
             'react/jsx-pascal-case': 'error',
             'react/jsx-props-no-spread-multi': 'error',
+            'react/forward-ref-uses-ref': 'error',
             'react/no-access-state-in-setstate': 'error',
             'react/no-arrow-function-lifecycle': 'error',
             'react/no-danger': 'error',
