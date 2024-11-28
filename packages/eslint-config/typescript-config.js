@@ -4,9 +4,6 @@ export const typescriptConfig = [
     ...tseslint.configs.strictTypeChecked,
     {
         files: ['**/*.ts', '**/*.tsx'],
-        plugins: {
-            '@typescript-eslint': tseslint.plugin,
-        },
         languageOptions: {
             parser: tseslint.parser,
             parserOptions: {

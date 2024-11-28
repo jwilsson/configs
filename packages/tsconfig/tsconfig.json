@@ -6,8 +6,9 @@
         "esModuleInterop": true,
         "exactOptionalPropertyTypes": true,
         "forceConsistentCasingInFileNames": true,
+        "incremental": true,
         "jsx": "react",
-        "lib": ["DOM", "ES2022"],
+        "lib": ["DOM", "ES2024"],
         "module": "nodenext",
         "moduleResolution": "nodenext",
         "newLine": "lf",
@@ -19,10 +20,11 @@
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "pretty": true,
+        "resolveJsonModule": true,
         "skipLibCheck": true,
         "sourceMap": true,
         "strict": true,
-        "target": "ES2022",
+        "target": "ES2024",
         "useDefineForClassFields": true
     }
 }
