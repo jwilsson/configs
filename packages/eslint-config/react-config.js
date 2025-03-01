@@ -2,7 +2,7 @@ import react from 'eslint-plugin-react';
 import reactHooks from 'eslint-plugin-react-hooks';
 
 export const reactConfig = [
-    ...reactHooks.configs['recommended-latest'],
+    reactHooks.configs['recommended-latest'],
     {
         files: ['**/*.jsx', '**/*.tsx'],
         plugins: {
