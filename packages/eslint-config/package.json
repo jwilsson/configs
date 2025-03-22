@@ -1,6 +1,6 @@
 {
     "name": "@jwilsson/eslint-config",
-    "version": "9.1.0",
+    "version": "9.2.0",
     "description": "jwilsson ESLint config",
     "license": "MIT",
     "type": "module",
