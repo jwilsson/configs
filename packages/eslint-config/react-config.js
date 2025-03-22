@@ -4,7 +4,7 @@ import { defineConfig } from 'eslint/config';
 
 export const reactConfig = defineConfig({
     files: ['**/*.jsx', '**/*.tsx'],
-    extends: [reactHooks.configs['recommended-latest']],
+    extends: [react.configs.flat.recommended, reactHooks.configs['recommended-latest']],
     plugins: {
         react,
     },
@@ -16,6 +16,7 @@ export const reactConfig = defineConfig({
     rules: {
         'react/button-has-type': 'error',
         'react/default-props-match-prop-types': 'error',
+        'react/display-name': 'off',
         'react/forbid-component-props': 'error',
         'react/hook-use-state': 'error',
         'react/iframe-missing-sandbox': 'error',
@@ -45,7 +46,6 @@ export const reactConfig = defineConfig({
         'react/no-access-state-in-setstate': 'error',
         'react/no-arrow-function-lifecycle': 'error',
         'react/no-danger': 'error',
-        'react/no-deprecated': 'error',
         'react/destructuring-assignment': [
             'error',
             'always',
