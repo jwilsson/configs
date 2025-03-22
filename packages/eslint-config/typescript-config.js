@@ -1,12 +1,11 @@
 import tsESLint from '@typescript-eslint/eslint-plugin';
-import tsParser from '@typescript-eslint/parser';
+import { defineConfig } from 'eslint/config';
 
-export const typescriptConfig = [
-    ...tsESLint.configs.strictTypeChecked,
+export const typescriptConfig = defineConfig(
     {
         files: ['**/*.ts', '**/*.tsx'],
+        extends: [tsESLint.configs.strictTypeChecked],
         languageOptions: {
-            parser: tsParser,
             parserOptions: {
                 projectService: true,
             },
@@ -99,4 +98,4 @@ export const typescriptConfig = [
             '@typescript-eslint/explicit-module-boundary-types': 'off',
         },
     },
-];
+);
