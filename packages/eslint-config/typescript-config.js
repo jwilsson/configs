@@ -1,5 +1,5 @@
-import tsESLint from '@typescript-eslint/eslint-plugin';
 import { defineConfig } from 'eslint/config';
+import tsESLint from 'typescript-eslint';
 
 export const typescriptConfig = defineConfig(
     {
