@@ -1,18 +1,18 @@
-import tseslint from 'typescript-eslint';
+import tsESLint from '@typescript-eslint/eslint-plugin';
+import tsParser from '@typescript-eslint/parser';
 
 export const typescriptConfig = [
-    ...tseslint.configs.strictTypeChecked,
+    ...tsESLint.configs.strictTypeChecked,
     {
         files: ['**/*.ts', '**/*.tsx'],
         languageOptions: {
-            parser: tseslint.parser,
+            parser: tsParser,
             parserOptions: {
                 projectService: true,
             },
         },
         rules: {
             'consistent-return': 'off',
-            'default-param-last': 'off',
             'no-invalid-this': 'off',
             'no-loop-func': 'off',
             'no-shadow': 'off',
@@ -44,7 +44,6 @@ export const typescriptConfig = [
                     prefer: 'no-type-imports',
                 },
             ],
-            '@typescript-eslint/default-param-last': 'error',
             '@typescript-eslint/explicit-member-accessibility': 'error',
             '@typescript-eslint/explicit-function-return-type': [
                 'error',

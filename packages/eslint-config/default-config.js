@@ -1,3 +1,4 @@
+import tsParser from '@typescript-eslint/parser';
 import globals from 'globals';
 
 export const defaultConfig = [
@@ -8,6 +9,7 @@ export const defaultConfig = [
                 ...globals.jest,
                 ...globals.node,
             },
+            parser: tsParser,
         },
         rules: {
             'accessor-pairs': 'error',
