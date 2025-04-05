@@ -35,7 +35,6 @@ export const defaultConfig = [
             'func-style': 'error',
             'grouped-accessor-pairs': ['error', 'getBeforeSet'],
             'guard-for-in': 'error',
-            'init-declarations': 'error',
             'line-comment-position': 'error',
             'logical-assignment-operators': [
                 'error',
