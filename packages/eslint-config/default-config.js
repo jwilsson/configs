@@ -35,6 +35,7 @@ export const defaultConfig = [
             'func-style': 'error',
             'grouped-accessor-pairs': ['error', 'getBeforeSet'],
             'guard-for-in': 'error',
+            'init-declarations': 'error',
             'line-comment-position': 'error',
             'logical-assignment-operators': [
                 'error',
@@ -59,6 +60,7 @@ export const defaultConfig = [
             'no-await-in-loop': 'error',
             'no-caller': 'error',
             'no-constructor-return': 'error',
+            'no-dupe-class-members': 'error',
             'no-div-regex': 'error',
             'no-duplicate-imports': 'error',
             'no-else-return': 'error',

@@ -51,7 +51,6 @@ export const typescriptConfig = defineConfig(
                 },
             ],
             '@typescript-eslint/method-signature-style': 'error',
-            '@typescript-eslint/no-dupe-class-members': 'error',
             '@typescript-eslint/no-inferrable-types': 'error',
             '@typescript-eslint/no-loop-func': 'error',
             '@typescript-eslint/no-redeclare': 'error',
