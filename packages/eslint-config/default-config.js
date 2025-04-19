@@ -79,7 +79,7 @@ export const defaultConfig = [
             'no-implicit-globals': 'error',
             'no-implied-eval': 'error',
             'no-inline-comments': 'error',
-            'no-invalid-this': 'off',
+            'no-invalid-this': 'error',
             'no-iterator': 'error',
             'no-label-var': 'error',
             'no-labels': [
@@ -129,7 +129,12 @@ export const defaultConfig = [
                     disallowArithmeticOperators: true,
                 },
             ],
-            'no-unused-expressions': 'off',
+            'no-unused-expressions': [
+                'error',
+                {
+                    allowShortCircuit: true,
+                },
+            ],
             'no-unused-vars': [
                 'error',
                 {

@@ -12,10 +12,7 @@ export const typescriptConfig = defineConfig(
         },
         rules: {
             'consistent-return': 'off',
-            'no-invalid-this': 'off',
-            'no-loop-func': 'off',
             'no-shadow': 'off',
-            'no-unused-expressions': 'off',
             'no-use-before-define': 'off',
             'prefer-destructuring': 'off',
 
@@ -52,19 +49,12 @@ export const typescriptConfig = defineConfig(
             ],
             '@typescript-eslint/method-signature-style': 'error',
             '@typescript-eslint/no-inferrable-types': 'error',
-            '@typescript-eslint/no-loop-func': 'error',
             '@typescript-eslint/no-redeclare': 'error',
             '@typescript-eslint/no-require-imports': 'error',
             '@typescript-eslint/no-shadow': 'error',
             '@typescript-eslint/no-unnecessary-qualifier': 'error',
             '@typescript-eslint/no-unsafe-unary-minus': 'error',
             '@typescript-eslint/no-unsafe-type-assertion': 'error',
-            '@typescript-eslint/no-unused-expressions': [
-                'error',
-                {
-                    allowShortCircuit: true,
-                },
-            ],
             '@typescript-eslint/no-unused-vars': [
                 'error',
                 {
