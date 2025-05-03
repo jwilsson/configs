@@ -106,6 +106,12 @@ export const defaultConfig = [
             'no-self-compare': 'error',
             'no-sequences': 'error',
             'no-shadow': 'error',
+            'no-shadow-restricted-names': [
+                'error',
+                {
+                    reportGlobalThis: true,
+                },
+            ],
             'no-template-curly-in-string': 'error',
             'no-throw-literal': 'error',
             'no-undef-init': 'error',
