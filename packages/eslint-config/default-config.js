@@ -114,6 +114,7 @@ export const defaultConfig = [
             ],
             'no-template-curly-in-string': 'error',
             'no-throw-literal': 'error',
+            'no-unassigned-vars': 'error',
             'no-undef-init': 'error',
             'no-undef': 'error',
             'no-undefined': 'error',
