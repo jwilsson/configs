@@ -1,6 +1,6 @@
 {
     "name": "@jwilsson/stylelint-config",
-    "version": "9.6.0",
+    "version": "9.7.0",
     "description": "jwilsson stylelint config",
     "license": "MIT",
     "main": "stylelint.config.js",
