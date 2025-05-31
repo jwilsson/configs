@@ -12,8 +12,6 @@ export const typescriptConfig = defineConfig(
         },
         rules: {
             'consistent-return': 'off',
-            'no-shadow': 'off',
-            'no-use-before-define': 'off',
             'prefer-destructuring': 'off',
 
             '@typescript-eslint/array-type': 'error',
@@ -51,7 +49,6 @@ export const typescriptConfig = defineConfig(
             '@typescript-eslint/no-inferrable-types': 'error',
             '@typescript-eslint/no-redeclare': 'error',
             '@typescript-eslint/no-require-imports': 'error',
-            '@typescript-eslint/no-shadow': 'error',
             '@typescript-eslint/no-unnecessary-qualifier': 'error',
             '@typescript-eslint/no-unnecessary-type-conversion': 'error',
             '@typescript-eslint/no-unsafe-type-assertion': 'error',
@@ -62,7 +59,6 @@ export const typescriptConfig = defineConfig(
                     varsIgnorePattern: '_',
                 },
             ],
-            '@typescript-eslint/no-use-before-define': 'error',
             '@typescript-eslint/prefer-destructuring': 'error',
             '@typescript-eslint/prefer-enum-initializers': 'error',
             '@typescript-eslint/prefer-find': 'error',
