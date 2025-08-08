@@ -50,7 +50,6 @@ export const typescriptConfig = defineConfig(
             '@typescript-eslint/no-redeclare': 'error',
             '@typescript-eslint/no-require-imports': 'error',
             '@typescript-eslint/no-unnecessary-qualifier': 'error',
-            '@typescript-eslint/no-unnecessary-type-conversion': 'error',
             '@typescript-eslint/no-unsafe-type-assertion': 'error',
             '@typescript-eslint/no-unsafe-unary-minus': 'error',
             '@typescript-eslint/no-unused-vars': [
