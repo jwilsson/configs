@@ -4,7 +4,7 @@ import { defineConfig } from 'eslint/config';
 
 export const reactConfig = defineConfig({
     files: ['**/*.jsx', '**/*.tsx'],
-    extends: [react.configs.flat.recommended, reactHooks.configs['recommended-latest']],
+    extends: [react.configs.flat.recommended, reactHooks.configs.recommended],
     plugins: {
         react,
     },
