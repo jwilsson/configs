@@ -12,6 +12,7 @@ export const typescriptConfig = defineConfig(
         },
         rules: {
             'consistent-return': 'off',
+            'no-unused-private-class-members': 'off',
             'prefer-destructuring': 'off',
 
             '@typescript-eslint/array-type': 'error',
@@ -52,6 +53,7 @@ export const typescriptConfig = defineConfig(
             '@typescript-eslint/no-unnecessary-qualifier': 'error',
             '@typescript-eslint/no-unsafe-type-assertion': 'error',
             '@typescript-eslint/no-unsafe-unary-minus': 'error',
+            '@typescript-eslint/no-unused-private-class-members': 'error',
             '@typescript-eslint/no-unused-vars': [
                 'error',
                 {
