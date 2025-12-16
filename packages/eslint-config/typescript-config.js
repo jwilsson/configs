@@ -60,6 +60,7 @@ export const typescriptConfig = defineConfig(
                     varsIgnorePattern: '_',
                 },
             ],
+            '@typescript-eslint/no-useless-default-assignment': 'error',
             '@typescript-eslint/prefer-destructuring': 'error',
             '@typescript-eslint/prefer-enum-initializers': 'error',
             '@typescript-eslint/prefer-find': 'error',
