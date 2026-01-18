@@ -77,6 +77,7 @@ export const typescriptConfig = defineConfig(
             '@typescript-eslint/require-array-sort-compare': 'error',
             '@typescript-eslint/return-await': 'error',
             '@typescript-eslint/sort-type-constituents': 'error',
+            '@typescript-eslint/strict-void-return': 'error',
             '@typescript-eslint/switch-exhaustiveness-check': 'error',
         },
     },
