@@ -2,16 +2,10 @@
     "compilerOptions": {
         "allowUnreachableCode": false,
         "allowUnusedLabels": false,
-        "declaration": true,
-        "esModuleInterop": true,
         "exactOptionalPropertyTypes": true,
-        "forceConsistentCasingInFileNames": true,
         "incremental": true,
-        "jsx": "react",
-        "lib": ["DOM", "ES2024"],
-        "module": "nodenext",
-        "moduleResolution": "nodenext",
-        "newLine": "lf",
+        "jsx": "react-jsx",
+        "lib": ["DOM", "ES2025"],
         "noFallthroughCasesInSwitch": true,
         "noImplicitOverride": true,
         "noImplicitReturns": true,
@@ -21,10 +15,6 @@
         "noUnusedParameters": true,
         "pretty": true,
         "resolveJsonModule": true,
-        "skipLibCheck": true,
-        "sourceMap": true,
-        "strict": true,
-        "target": "ES2024",
-        "useDefineForClassFields": true
+        "sourceMap": true
     }
 }
