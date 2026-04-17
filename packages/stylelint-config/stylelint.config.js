@@ -16,9 +16,11 @@ export default {
         'max-nesting-depth': 3,
         'no-unknown-custom-media': true,
         'number-max-precision': null,
+        'relative-selector-nesting-notation': 'explicit',
         'selector-max-compound-selectors': 3,
         'selector-max-id': 0,
         'selector-max-universal': 0,
+        'selector-no-deprecated': true,
         'selector-no-qualifying-type': [
             true,
             {
