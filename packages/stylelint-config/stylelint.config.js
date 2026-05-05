@@ -21,6 +21,7 @@ export default {
         'selector-max-id': 0,
         'selector-max-universal': 0,
         'selector-no-deprecated': true,
+        'selector-no-invalid': true,
         'selector-no-qualifying-type': [
             true,
             {
